@@ -11,21 +11,36 @@ Un outil full-stack qui analyse la compatibilité entre un CV et une fiche de po
 **Étape 1 — Clé API**
 
 À la racine du projet :
+
 ```bash
 cp .env.example .env
 ```
+
 Ouvrez `.env` et remplacez :
+
 ```
 OPENAI_API_KEY=la-clé-reçue-en-privé
 ```
 
-**Étape 2 — Backend** (Terminal 1)
+**Étape 2 — Backend Windows** (Terminal 1)
 
-```bash
+```powershell
+Copy-Item .env.example .env
 cd backend
 python -m venv venv
 venv\Scripts\activate        # Windows
-source venv/bin/activate     # macOS/Linux
+pip install -r requirements.txt
+python -m spacy download fr_core_news_sm
+uvicorn main:app --reload --port 8000
+```
+
+**Étape 2 — Backend macOS/Linux** (Terminal 1)
+
+```bash
+cp .env.example .env
+cd backend
+python3 -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
 python -m spacy download fr_core_news_sm
 uvicorn main:app --reload --port 8000
@@ -84,6 +99,7 @@ npm run dev
 ```
 
 **Pourquoi ces choix techniques :**
+
 - **FastAPI** sur Flask : support async natif, validation Pydantic, docs Swagger auto
 - **LLM pour l'extraction** sur regex/spaCy : les CVs ont des formats trop variables — un LLM comprend le contexte ("led a team using Agile" → extrait: Agile, team management)
 - **Fallback taxonomy** : si la clé OpenAI est absente, l'app continue avec un extracteur local — pas de crash
@@ -119,11 +135,11 @@ CV_match/
 
 ## Endpoints API
 
-| Endpoint | Méthode | Description |
-|---|---|---|
-| `/api/analyze` | POST | CV PDF + JD → résultat scoring complet |
-| `/api/report/{id}/rapport.pdf` | GET | Télécharge le rapport PDF |
-| `/api/report/{id}/rapport.docx` | GET | Télécharge le rapport Word |
+| Endpoint                        | Méthode | Description                            |
+| ------------------------------- | ------- | -------------------------------------- |
+| `/api/analyze`                  | POST    | CV PDF + JD → résultat scoring complet |
+| `/api/report/{id}/rapport.pdf`  | GET     | Télécharge le rapport PDF              |
+| `/api/report/{id}/rapport.docx` | GET     | Télécharge le rapport Word             |
 
 Documentation interactive : http://localhost:8000/docs
 
@@ -131,9 +147,9 @@ Documentation interactive : http://localhost:8000/docs
 
 ## Problèmes fréquents
 
-| Problème | Solution |
-|---|---|
-| `Failed to fetch` | Vérifier que le backend tourne sur le port 8000 |
-| `LLM extraction unavailable` | Vérifier la clé dans `.env` — fallback automatique si absente |
-| PDF illisible | Utiliser un PDF natif (pas un scan image) |
-| Port 8000 déjà utilisé | Lancer avec `--port 8001` et changer `API_BASE` dans `App.jsx` |
+| Problème                     | Solution                                                       |
+| ---------------------------- | -------------------------------------------------------------- |
+| `Failed to fetch`            | Vérifier que le backend tourne sur le port 8000                |
+| `LLM extraction unavailable` | Vérifier la clé dans `.env` — fallback automatique si absente  |
+| PDF illisible                | Utiliser un PDF natif (pas un scan image)                      |
+| Port 8000 déjà utilisé       | Lancer avec `--port 8001` et changer `API_BASE` dans `App.jsx` |
