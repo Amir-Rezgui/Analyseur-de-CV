@@ -1,0 +1,301 @@
+{
+  "categories": {
+    "programming_languages": {
+      "label": "Langages de Programmation",
+      "domain": "tech",
+      "skills": [
+        "python", "javascript", "typescript", "java", "c++", "c#", "c", "ruby", "go", "golang",
+        "rust", "swift", "kotlin", "php", "scala", "r", "matlab", "perl", "lua", "dart",
+        "objective-c", "assembly", "haskell", "elixir", "clojure", "f#", "visual basic", "vba",
+        "cobol", "fortran", "groovy", "julia", "shell", "bash", "powershell", "zig", "nim"
+      ]
+    },
+    "web_frontend": {
+      "label": "Développement Frontend",
+      "domain": "tech",
+      "skills": [
+        "react", "reactjs", "react.js", "angular", "angularjs", "vue", "vuejs", "vue.js",
+        "svelte", "next.js", "nextjs", "nuxt", "nuxtjs", "gatsby", "html", "html5", "css",
+        "css3", "sass", "scss", "less", "tailwind", "tailwindcss", "bootstrap", "material ui",
+        "mui", "chakra ui", "styled-components", "emotion", "webpack", "vite", "rollup", "parcel",
+        "babel", "eslint", "prettier", "storybook", "redux", "zustand", "mobx", "recoil",
+        "jquery", "backbone", "ember", "solid.js", "qwik", "astro", "remix", "htmx"
+      ]
+    },
+    "web_backend": {
+      "label": "Développement Backend",
+      "domain": "tech",
+      "skills": [
+        "node.js", "nodejs", "express", "expressjs", "fastapi", "django", "flask", "spring",
+        "spring boot", "springboot", "asp.net", ".net", "dotnet", "laravel", "symfony", "rails",
+        "ruby on rails", "sinatra", "gin", "fiber", "actix", "rocket", "nest.js", "nestjs",
+        "koa", "hapi", "fastify", "graphql", "rest", "restful", "api", "grpc", "soap",
+        "websocket", "microservices", "strapi", "directus", "supabase"
+      ]
+    },
+    "databases": {
+      "label": "Bases de Données",
+      "domain": "tech",
+      "skills": [
+        "sql", "mysql", "postgresql", "postgres", "mongodb", "redis", "elasticsearch",
+        "cassandra", "dynamodb", "firebase", "firestore", "supabase", "sqlite", "oracle",
+        "sql server", "mariadb", "couchdb", "neo4j", "influxdb", "timescaledb", "cockroachdb",
+        "fauna", "arangodb", "memcached", "prisma", "sequelize", "typeorm", "mongoose",
+        "sqlalchemy", "hibernate", "realm", "pinecone", "weaviate", "chroma"
+      ]
+    },
+    "cloud_devops": {
+      "label": "Cloud & DevOps",
+      "domain": "tech",
+      "skills": [
+        "aws", "amazon web services", "azure", "gcp", "google cloud", "docker", "kubernetes",
+        "k8s", "terraform", "ansible", "jenkins", "gitlab ci", "github actions", "circleci",
+        "travis ci", "ci/cd", "nginx", "apache", "linux", "ubuntu", "centos", "prometheus",
+        "grafana", "datadog", "elk", "cloudflare", "heroku", "vercel", "netlify",
+        "digitalocean", "vagrant", "puppet", "chef", "helm", "istio", "serverless", "lambda",
+        "s3", "ec2", "ecs", "eks", "fargate", "cloudformation", "pulumi", "argocd",
+        "monitoring", "observability", "sre", "devops", "platform engineering"
+      ]
+    },
+    "data_science": {
+      "label": "Data Science & IA",
+      "domain": "tech",
+      "skills": [
+        "machine learning", "deep learning", "neural networks", "tensorflow", "pytorch", "keras",
+        "scikit-learn", "sklearn", "pandas", "numpy", "scipy", "matplotlib", "seaborn", "plotly",
+        "jupyter", "data analysis", "data visualization", "nlp", "natural language processing",
+        "computer vision", "reinforcement learning", "xgboost", "lightgbm", "catboost",
+        "random forest", "svm", "regression", "classification", "clustering", "pca",
+        "feature engineering", "mlops", "hugging face", "transformers", "bert", "gpt", "llm",
+        "langchain", "rag", "openai", "generative ai", "ai", "artificial intelligence",
+        "big data", "spark", "hadoop", "hive", "airflow", "dbt", "etl", "data pipeline",
+        "data warehouse", "snowflake", "databricks", "power bi", "tableau", "looker",
+        "data engineering", "data modeling", "statistics", "statistiques", "r studio",
+        "data driven", "a/b testing", "experimentation"
+      ]
+    },
+    "mobile": {
+      "label": "Développement Mobile",
+      "domain": "tech",
+      "skills": [
+        "react native", "flutter", "ios", "android", "swift", "kotlin", "xamarin", "ionic",
+        "cordova", "capacitor", "expo", "swiftui", "jetpack compose", "mobile development",
+        "app development", "pwa", "progressive web app"
+      ]
+    },
+    "testing": {
+      "label": "Tests & Qualité",
+      "domain": "tech",
+      "skills": [
+        "unit testing", "integration testing", "e2e testing", "jest", "mocha", "chai",
+        "cypress", "selenium", "playwright", "puppeteer", "pytest", "unittest", "junit",
+        "testng", "tdd", "bdd", "test driven development", "cucumber", "postman", "insomnia",
+        "load testing", "performance testing", "jmeter", "k6", "qa", "quality assurance",
+        "test automation", "manual testing", "regression testing", "mockito", "vitest"
+      ]
+    },
+    "security": {
+      "label": "Cybersécurité",
+      "domain": "tech",
+      "skills": [
+        "cybersecurity", "security", "oauth", "oauth2", "jwt", "authentication", "authorization",
+        "ssl", "tls", "https", "encryption", "hashing", "owasp", "penetration testing",
+        "vulnerability assessment", "firewall", "vpn", "sso", "saml", "ldap", "active directory",
+        "iam", "zero trust", "soc", "siem", "ids", "ips", "waf", "devsecops", "cryptography",
+        "sécurité informatique", "ethical hacking", "bug bounty", "ctf"
+      ]
+    },
+    "architecture": {
+      "label": "Architecture & Conception",
+      "domain": "tech",
+      "skills": [
+        "microservices", "event-driven", "event sourcing", "cqrs", "domain driven design",
+        "ddd", "clean architecture", "hexagonal architecture", "mvc", "mvvm", "mvp",
+        "design patterns", "solid", "api gateway", "message queue", "rabbitmq", "kafka",
+        "sqs", "pub/sub", "load balancing", "caching", "cdn", "service mesh", "api design",
+        "system design", "scalability", "high availability", "distributed systems",
+        "concurrency", "multithreading", "event loop"
+      ]
+    },
+    "version_control": {
+      "label": "Gestion de Version",
+      "domain": "tech",
+      "skills": [
+        "git", "github", "gitlab", "bitbucket", "svn", "subversion", "git flow",
+        "trunk-based development", "code review", "pull request", "merge request"
+      ]
+    },
+    "project_management": {
+      "label": "Gestion de Projet",
+      "domain": "general",
+      "skills": [
+        "agile", "scrum", "kanban", "waterfall", "jira", "confluence", "trello", "asana",
+        "monday", "notion", "project management", "product management", "product owner",
+        "scrum master", "sprint planning", "backlog", "user stories", "roadmap",
+        "stakeholder management", "risk management", "budget management", "prince2",
+        "pmp", "safe", "lean", "six sigma", "gestion de projet", "chef de projet",
+        "planification", "coordination", "pilotage", "suivi de projet", "gantt",
+        "msa", "msproject", "smartsheet", "basecamp"
+      ]
+    },
+    "design": {
+      "label": "Design & UX/UI",
+      "domain": "creative",
+      "skills": [
+        "figma", "sketch", "adobe xd", "photoshop", "illustrator", "indesign", "after effects",
+        "premiere pro", "canva", "ux", "ui", "ux/ui", "user experience", "user interface",
+        "wireframing", "prototyping", "design system", "responsive design", "accessibility",
+        "a11y", "wcag", "usability testing", "information architecture", "interaction design",
+        "graphic design", "motion design", "branding", "logo", "typography", "color theory",
+        "design thinking", "user research", "persona", "user journey", "heuristic evaluation",
+        "zeplin", "invision", "miro", "blender", "3d modeling", "autocad", "solidworks"
+      ]
+    },
+    "marketing": {
+      "label": "Marketing & Communication",
+      "domain": "business",
+      "skills": [
+        "marketing", "digital marketing", "content marketing", "seo", "search engine optimization",
+        "sea", "sem", "google ads", "facebook ads", "social media", "community management",
+        "email marketing", "marketing automation", "hubspot", "mailchimp", "salesforce marketing",
+        "crm", "inbound marketing", "outbound marketing", "growth hacking", "growth",
+        "branding", "brand strategy", "communication", "relations presse", "pr",
+        "rédaction de contenu", "copywriting", "storytelling", "content strategy", "blog",
+        "analytics", "google analytics", "gtm", "tag manager", "pixel", "conversion rate",
+        "a/b testing", "landing page", "funnel", "acquisition", "rétention",
+        "influencer marketing", "affiliate marketing", "affiliation", "display",
+        "programmatic", "rtb", "dsp", "youtube ads", "linkedin ads", "tiktok ads",
+        "instagram", "linkedin", "twitter", "tiktok", "pinterest", "snapchat",
+        "e-commerce", "shopify", "woocommerce", "prestashop", "magento",
+        "market research", "étude de marché", "concurrence", "veille concurrentielle"
+      ]
+    },
+    "finance_accounting": {
+      "label": "Finance & Comptabilité",
+      "domain": "business",
+      "skills": [
+        "finance", "comptabilité", "accounting", "fiscal", "fiscalité", "tax", "audit",
+        "contrôle de gestion", "management control", "reporting", "budget", "prévisionnel",
+        "forecast", "trésorerie", "cash flow", "bilan", "compte de résultat", "p&l",
+        "consolidation", "ifrs", "normes ifrs", "pcg", "gaap", "logiciel sage", "sage erp", "sage 100", "sap fi",
+        "cegid", "excel", "financial modeling", "modélisation financière", "valorisation",
+        "valuation", "dcf", "m&a", "fusions acquisitions", "private equity", "lbo",
+        "analyse financière", "financial analysis", "kpi", "tableau de bord",
+        "bourse", "marchés financiers", "trading", "risk management", "risque",
+        "compliance", "conformité", "réglementation", "due diligence", "bank",
+        "banque", "assurance", "insurance", "gestion d'actifs", "asset management",
+        "patrimoine", "investissement", "portefeuille", "Bloomberg", "reuters"
+      ]
+    },
+    "sales": {
+      "label": "Vente & Développement Commercial",
+      "domain": "business",
+      "skills": [
+        "vente", "sales", "business development", "développement commercial", "prospection",
+        "cold calling", "account management", "account executive", "key account",
+        "customer success", "chiffre d'affaires", "revenue", "quotas", "objectifs commerciaux",
+        "négociation", "negotiation", "closing", "pipeline", "crm", "salesforce",
+        "hubspot crm", "outreach", "apollo", "linkedin sales navigator", "sdr", "bdr",
+        "before sales", "avant-vente", "pre-sales", "demo", "poc", "rfp", "appel d'offre",
+        "b2b", "b2c", "enterprise sales", "smb", "retail", "grande distribution",
+        "merchandising", "trade marketing", "sell-in", "sell-out"
+      ]
+    },
+    "hr_recruitment": {
+      "label": "Ressources Humaines",
+      "domain": "business",
+      "skills": [
+        "ressources humaines", "rh", "hr", "recrutement", "recruitment", "talent acquisition",
+        "sourcing", "headhunting", "onboarding", "plan de formation", "formation professionnelle", "training", "développement rh",
+        "paie", "payroll", "sirh", "hris", "workday", "successfactors", "people soft",
+        "gestion des talents", "talent management", "gpec", "gpsp", "mobilité interne",
+        "relations sociales", "droit du travail", "labour law", "cse", "négociation collective",
+        "entretiens annuels", "performance management", "360 feedback", "qvt", "qvct",
+        "well-being", "marque employeur", "employer branding", "diversité", "inclusion", "dei",
+        "handicap", "rqth", "culture d'entreprise", "employee engagement", "rétention"
+      ]
+    },
+    "legal": {
+      "label": "Juridique & Conformité",
+      "domain": "business",
+      "skills": [
+        "droit", "law", "juridique", "legal", "contrats", "contracts", "droit des affaires",
+        "corporate law", "droit commercial", "droit social", "droit du travail", "labour law",
+        "propriété intellectuelle", "intellectual property", "rgpd", "gdpr", "data protection",
+        "conformité", "compliance", "réglementation", "regulation", "contentieux", "litigation",
+        "arbitrage", "arbitration", "médiation", "notariat", "fiscal", "droit fiscal",
+        "aml", "kyc", "lutte anti-blanchiment", "finreg", "bale", "solvency",
+        "due diligence", "m&a", "fusions acquisitions", "private equity", "levée de fonds"
+      ]
+    },
+    "supply_chain": {
+      "label": "Supply Chain & Logistique",
+      "domain": "operations",
+      "skills": [
+        "supply chain", "logistique", "logistics", "procurement", "achat", "sourcing",
+        "approvisionnement", "gestion des stocks", "inventory management", "wms", "erp",
+        "sap", "oracle scm", "lean", "lean manufacturing", "six sigma", "kaizen",
+        "5s", "tpm", "juste à temps", "just in time", "kanban", "flux tendu",
+        "quality", "iso 9001", "iso 14001", "iso 45001", "contrôle qualité", "assurance qualité", "audit qualité",
+        "non-conformité", "corrective action", "transport", "freight", "douane", "customs",
+        "incoterms", "import export", "3pl", "4pl", "last mile", "entrepôt", "warehouse",
+        "planning", "demand planning", "s&op", "production", "ordonnancement"
+      ]
+    },
+    "soft_skills": {
+      "label": "Compétences Transversales",
+      "domain": "general",
+      "skills": [
+        "communication", "leadership", "teamwork", "team work", "problem solving",
+        "critical thinking", "analytical thinking", "creativity", "adaptability",
+        "time management", "conflict resolution", "negotiation", "presentation",
+        "public speaking", "mentoring", "coaching", "collaboration", "decision making",
+        "emotional intelligence", "empathy", "self-motivation", "initiative", "accountability",
+        "attention to detail", "organization", "strategic thinking", "innovation",
+        "customer focus", "results oriented", "work ethic", "flexibility", "autonomy",
+        "proactivity", "esprit d'équipe", "rigueur", "autonomie", "polyvalence",
+        "sens du détail", "force de proposition", "gestion du stress", "capacité d'adaptation",
+        "prise d'initiative", "curiosité", "pédagogie", "bienveillance",
+        "écoute active", "active listening", "vulgarisation", "synthèse",
+        "esprit analytique", "orientation résultats", "gestion des priorités",
+        "travail en équipe", "sens du service", "relation client", "client relationship"
+      ]
+    },
+    "languages": {
+      "label": "Langues",
+      "domain": "general",
+      "skills": [
+        "français", "french", "anglais", "english", "espagnol", "spanish", "allemand", "german",
+        "italien", "italian", "portugais", "portuguese", "arabe", "arabic", "chinois", "chinese",
+        "mandarin", "japonais", "japanese", "coréen", "korean", "russe", "russian", "hindi",
+        "turc", "turkish", "néerlandais", "dutch", "suédois", "swedish", "danois", "danish",
+        "norvégien", "norwegian", "polonais", "polish", "tchèque", "czech", "roumain",
+        "bilingue", "bilingual", "multilingue", "courant", "fluent", "intermédiaire",
+        "intermediate", "toefl", "toeic", "ielts", "delf", "dalf", "langue maternelle",
+        "native speaker", "professionnel", "professionnel", "notions", "lu écrit parlé"
+      ]
+    },
+    "certifications": {
+      "label": "Certifications & Habilitations",
+      "domain": "general",
+      "skills": [
+        "aws certified", "azure certified", "gcp certified", "cisco", "ccna", "ccnp",
+        "comptia", "security+", "ceh", "cissp", "oscp", "pmp", "prince2", "itil", "togaf",
+        "safe", "csm", "psm", "cspo", "google analytics", "google ads", "hubspot certified",
+        "salesforce certified", "oracle certified", "microsoft certified", "red hat certified",
+        "kubernetes certified", "cka", "ckad", "terraform certified", "databricks certified",
+        "istqb", "iso 27001", "brevet", "permis b", "habilitation électrique",
+        "caces", "nacelle", "chariot élévateur", "formation sst", "pse1", "pse2"
+      ]
+    }
+  },
+  "level_indicators": {
+    "expert":       ["expert", "avancé", "advanced", "senior", "lead", "principal", "maîtrise", "mastery", "10+ ans", "8+ ans", "confirmé"],
+    "intermediate": ["intermédiaire", "intermediate", "mid-level", "3-5 ans", "5+ ans", "bonne maîtrise", "solide", "3 ans"],
+    "beginner":     ["débutant", "beginner", "junior", "notions", "bases", "initiation", "découverte", "1-2 ans"]
+  },
+  "requirement_indicators": {
+    "required":  ["requis", "required", "obligatoire", "mandatory", "indispensable", "nécessaire", "exigé", "impératif", "must have", "exigence"],
+    "preferred": ["souhaité", "preferred", "apprécié", "appreciated", "idéalement", "ideally", "atout", "plus", "nice to have", "bonus", "serait un plus", "souhaitable", "un plus"]
+  }
+}
